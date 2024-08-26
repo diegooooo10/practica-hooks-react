@@ -1,6 +1,7 @@
 import { useFetch } from "../Hooks/useFetch";
 
 export const UsuariosComponent = () => {
+
   const { data, isLoading, errors } = useFetch(
     "https://jsonplaceholder.typicode.com/users"
   );
