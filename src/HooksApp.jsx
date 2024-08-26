@@ -1,10 +1,10 @@
-import { CallBackComponent } from "./Components/CallBackComponent"
+import { ListaTareas } from "./Components/ListaTareas"
 export const HooksApp = () => {
   return (
     <>
     <h1>Aplicación de Hooks</h1>
     <hr/>
-    <CallBackComponent></CallBackComponent>
+    <ListaTareas></ListaTareas>
     </>
   )
 }
