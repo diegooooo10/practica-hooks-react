@@ -1,11 +1,10 @@
-import { ContadorComponent } from './Components/ContadorComponent'
-
+import {UsuariosComponent} from "./Components/UsuariosComponent"
 export const HooksApp = () => {
   return (
     <>
     <h1>Aplicación de Hooks</h1>
     <hr/>
-    <ContadorComponent></ContadorComponent>
+    <UsuariosComponent></UsuariosComponent>
     </>
   )
 }
